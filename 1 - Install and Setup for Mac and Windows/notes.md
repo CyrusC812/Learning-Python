@@ -12,4 +12,3 @@
 ## Additional Notes
 - running python in powershell allows you to interact with its built in one line interactive prompt.
 - e.g. >>>print("Hello World")
-
