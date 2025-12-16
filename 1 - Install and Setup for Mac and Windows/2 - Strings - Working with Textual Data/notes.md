@@ -7,8 +7,7 @@
 - go to www.python.org
 - Download the latest version for Windows
 - OR
-- Download Python Install manager
-- Set up using Wizard
+- Download Python Install manager & Set up using Wizard
 
 ## Additional Notes
 - running python in powershell allows you to interact with its built in one line interactive prompt.
