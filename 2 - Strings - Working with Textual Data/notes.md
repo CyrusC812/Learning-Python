@@ -11,6 +11,6 @@
 - fstrings are more readable than standard + method
 - fstrings allow .upper or similar added to its place holders
 
-## Additional
+## Additional notes
 - Use help for extra info , e.g. print(help(str))
 - Use dir to list all possible methods e.g. print(dir(str))
