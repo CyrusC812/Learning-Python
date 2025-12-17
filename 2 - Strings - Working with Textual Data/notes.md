@@ -1,4 +1,5 @@
 # 2: Strings - Working with Textual Data
+## General
 - Triple quotation marks allows multi-line strings
 - Variables can be used to store strings
 - Count can be used to count the amount of characters found in string and output it
