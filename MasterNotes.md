@@ -2,10 +2,11 @@
 
 Use this as the primary reference.
 ## Table of Contents
-- [Installation](#Installation)
-- [Working with textual data](#string)
-- [Working with textual data](#string)
-- [List , Tuple and sets](#Lists)
+- [Install and Setup for Mac and Windows](#1---install-and-setup-for-mac-and-windows)
+- [Strings, Working with Textual Data](#2---strings--working-with-textual-data)
+- [Integers and Floats – Working with Numeric Data](#3-integers-and-floats---working-with-numeric-data)
+- [Lists, Tuples, and Sets](#4-lists-tuples-and-sets)
+
 
 ## 1 - Install and Setup for Mac and Windows
 → #Installation
