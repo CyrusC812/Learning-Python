@@ -1,6 +1,7 @@
 # An Overview of all notes organised into topics
 
-Use this as the primary reference.
+## For more examples check examples.py of each folder
+
 ## Table of Contents
 - [Install and Setup for Mac and Windows](#1---install-and-setup-for-mac-and-windows)
 - [Strings, Working with Textual Data](#2---strings--working-with-textual-data)
@@ -8,8 +9,8 @@ Use this as the primary reference.
 - [Lists, Tuples, and Sets](#4-lists-tuples-and-sets)
 
 
+
 ## 1 - Install and Setup for Mac and Windows
-→ #Installation
 
 ### Overview
 Notes about checking the Python version and installing Python on Windows.
@@ -25,31 +26,38 @@ Notes about checking the Python version and installing Python on Windows.
 - Check Python version:
   ```bash
   python --version
+  ```
+
+
 
 ## 2 - Strings , Working with Textual Data
-→ #string
 
 ### Overview
 Notes for manipulating strings 
 
 ### Key Concepts
 - Concatenation
- - fstrings is f"{greeting.upper()}, {name} , Welcome!"
- - fstrings are more readable and usable than standard concatenation methods
+  - fstrings is f"{greeting.upper()}, {name} , Welcome!"
+  - fstrings are more readable and usable than standard concatenation methods
 - String maniplation
- - .upper() turns the whole text upper cased
- - .lower() turns the whole text lower cased
+  - .upper() turns the whole text upper cased
+  - .lower() turns the whole text lower cased
+
 ### Important details
-> Use help for extra info , e.g. print(help(str))
+> Use help for extra info , e.g. print(help(str))  
 > Use dir to list all possible methods e.g. print(dir(str))
 
 ### Examples
 - fstrings :
   ```python
   message_fstring = f"{greeting.upper()}, {name} , Welcome!" # Using f-strings
+  ```
 - Standard Concatenation using + operator:
   ```python
   message_concat = greeting + ", " + name + " , Welcome!" # Same thing but less readable
+  ```
+
+
 
 ## 3: Integers and Floats - Working with Numeric Data
 
@@ -75,9 +83,11 @@ Notes covering basic numeric operations in Python, including arithmetic operator
   ```python
   num = 5
   num % 2 == 1
+  ```
 
-### 4: Lists, Tuples, and Sets
 
+
+## 4: Lists, Tuples, and Sets
 
 ### Overview
 Notes of lists tuples and sets and their functions
@@ -96,6 +106,7 @@ Notes of lists tuples and sets and their functions
 - sum(nums) returns the sum of all numbers
 - max(nums) returns the largest number
 - min(nums) returns the smallest number
+
 ### Important Details
 > Lists are mutable, meaning their contents can be changed after creation.  
 > Tuples are immutable and cannot be modified once created.  
@@ -103,22 +114,25 @@ Notes of lists tuples and sets and their functions
 > `.sort()` modifies the list in place and returns `None`.  
 > `.reverse()` also modifies the list in place.  
 > Sets do not allow duplicate values and are unordered.
+
 ### Examples
 - Min, Max and Sum:
   ```python
-    print(min(nums)) # min(nums) returns the smallest number
-    print(max(nums)) # max(nums) returns the largest number
-    print(sum(nums)) # sum(nums) returns the sum of all numbers
+  print(min(nums)) # min(nums) returns the smallest number
+  print(max(nums)) # max(nums) returns the largest number
+  print(sum(nums)) # sum(nums) returns the sum of all numbers
+  ```
+
 - Number list sorting:
   ```python
-    nums.sort() # Sorts it in ascending order
-    nums.sort(reverse=True) # Sorts it in descending order
+  nums.sort() # Sorts it in ascending order
+  nums.sort(reverse=True) # Sorts it in descending order
+  ```
+
 - List:
   ```python
-    print(len(courses)) # len() prints how many values/index there are.
-
-    print(courses[0]) # courses[0] returns the first index of the list
-
-    print(courses[-1]) # Negative index allows it to count from the end
-## For more examples check examples.py
+  print(len(courses)) # len() prints how many values/index there are.
+  print(courses[0])  # courses[0] returns the first index of the list
+  print(courses[-1]) # Negative index allows it to count from the end
+  ```
 
