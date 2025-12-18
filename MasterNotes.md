@@ -1,8 +1,12 @@
 # An Overview of all notes organised into topics
 
 Use this as the primary reference.
+## Table of Contents
+- [Installation](#Installation)
+- [Working with textual data](#string)
 
 ## 1 - Install and Setup for Mac and Windows
+→ #Installation
 
 ### Overview
 Notes about checking the Python version and installing Python on Windows.
@@ -20,6 +24,7 @@ Notes about checking the Python version and installing Python on Windows.
   python --version
 
 ## 2 - Strings , Working with Textual Data
+→ #string
 
 ### Overview
 Notes for manipulating strings 
