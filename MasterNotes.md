@@ -51,7 +51,7 @@ Notes for manipulating strings
   message_concat = greeting + ", " + name + " , Welcome!" # Same thing but less readable
 
 ## 4: Lists, Tuples, and Sets
-→ #Lists
+
 
 ### Overview
 Notes of lists tuples and sets and their functions

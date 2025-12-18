@@ -1,22 +1,24 @@
-# General : 
-- Odd and even numbers can be Idenified through % 2 , where if remainder = 1 then its odd
-- abs() = Absolute Value where it removes the negavtive sign
-- Casting can be done through int(str)
+# General, Arithmetic Operators, and Comparisons
 
+## Overview
+Notes covering basic numeric operations in Python, including arithmetic operators, comparisons, and commonly used built-in functions.
 
-# Arithmetic Operators:
-- Addition:       3 + 2
-- Subtraction:    3 - 2
-- Multiplication: 3 * 2
-- Division:       3 / 2
-- Floor Division: 3 // 2
-- Exponent:       3 ** 2
-- Modulus:        3 % 2
+## Key Concepts
+- Odd and even numbers can be identified using `% 2`
+- `abs()` returns the absolute value of a number
+- Casting can be done using `int()`
+- Arithmetic operators perform mathematical calculations
+- Comparison operators compare values and return booleans
 
-# Comparisons:
-- Equal:            3 == 2
-- Not Equal:        3 != 2
-- Greater Than:     3 > 2
-- Less Than:        3 < 2
-- Greater or Equal: 3 >= 2
-- Less or Equal:    3 <= 2
+## Important Details
+> `%` returns the remainder of a division 
+> `abs()` always returns a non-negative number.  
+> `/` always returns a float
+> `//` performs floor division and rounds down
+> Comparison operations return `True` or `False`.
+
+## Examples
+- Odd / Even check:
+  ```python
+  num = 5
+  num % 2 == 1
