@@ -10,7 +10,7 @@
 
 
 
-## 1 - Install and Setup for Mac and Windows
+# 1 - Install and Setup for Mac and Windows
 
 ### Overview
 Notes about checking the Python version and installing Python on Windows.
@@ -30,7 +30,7 @@ Notes about checking the Python version and installing Python on Windows.
 
 
 
-## 2 - Strings , Working with Textual Data
+# 2 - Strings , Working with Textual Data
 
 ### Overview
 Notes for manipulating strings 
@@ -59,7 +59,7 @@ Notes for manipulating strings
 
 
 
-## 3: Integers and Floats - Working with Numeric Data
+# 3: Integers and Floats - Working with Numeric Data
 
 ### Overview
 Notes covering basic numeric operations in Python, including arithmetic operators, comparisons, and commonly used built-in functions.
@@ -87,7 +87,7 @@ Notes covering basic numeric operations in Python, including arithmetic operator
 
 
 
-## 4: Lists, Tuples, and Sets
+# 4: Lists, Tuples, and Sets
 
 ### Overview
 Notes of lists tuples and sets and their functions
