@@ -1,7 +1,7 @@
 # An Overeview of all notes organised into topics
-<!--
+
 Use this as the primary reference.
--->
+
 ## 1 - Install and Setup for Mac and Windows
 
 ### Overview
