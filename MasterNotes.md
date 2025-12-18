@@ -7,7 +7,7 @@
 - [Strings, Working with Textual Data](#2---strings--working-with-textual-data)
 - [Integers and Floats – Working with Numeric Data](#3-integers-and-floats---working-with-numeric-data)
 - [Lists, Tuples, and Sets](#4-lists-tuples-and-sets)
-- [Dictionaries - Key-Value Pairs](##-5:-Dictionaries---Working-with-Key-Value-Pairs)
+- [Dictionaries - Key-Value Pairs](#-5:-Dictionaries---Working-with-Key-Value-Pairs)
 
 
 
