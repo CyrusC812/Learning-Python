@@ -7,7 +7,7 @@
 - [Strings, Working with Textual Data](#2---strings--working-with-textual-data)
 - [Integers and Floats – Working with Numeric Data](#3-integers-and-floats---working-with-numeric-data)
 - [Lists, Tuples, and Sets](#4-lists-tuples-and-sets)
-- [Dictionaries - Key-Value Pairs](#-5:-Dictionaries---Working-with-Key-Value-Pairs)
+- [Dictionaries - Working with Key-Value Pairs](#5-dictionaries---working-with-key-value-pairs)
 
 
 
@@ -138,7 +138,7 @@ Notes of lists tuples and sets and their functions
   print(courses[-1]) # Negative index allows it to count from the end
   ```
 
-## 5: Dictionaries - Working with Key-Value Pairs
+# 5: Dictionaries - Working with Key-Value Pairs
 
 ### Overview
 How to use dictionaries and when to use them.
