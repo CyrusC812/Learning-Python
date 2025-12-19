@@ -8,7 +8,7 @@
 - [Integers and Floats – Working with Numeric Data](#3-integers-and-floats---working-with-numeric-data)
 - [Lists, Tuples, and Sets](#4-lists-tuples-and-sets)
 - [Dictionaries - Working with Key-Value Pairs](#5-dictionaries---working-with-key-value-pairs)
-- [Conditions - If elif and else](#-6:-Conditions---If-elif-and-else-statements)  
+- [Conditions - If elif and else](#6-conditions---if-elif-and-else-statements)
 
 
 
