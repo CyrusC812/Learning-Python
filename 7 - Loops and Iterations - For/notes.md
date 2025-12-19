@@ -1,14 +1,14 @@
-# 7: Loops and Iterations - For
+# 7: Loops and Iterations - For loops and while loops.
 
 ### Overview
 
 How to use for and while loops
-### Key Concepts
+## Key Concepts
 
-## For loops:
+### For loops:
 - For i in range(10): allows you to loop 10 or a set times.
 - For value in list: allows you to loop however many childrens there are in the list
-## While loops:
+### While loops:
 - While loops continues a loop until the statement is true
 - While True loops continues forever so use a break or else it will crash eventually
 
