@@ -1,24 +1,29 @@
-# 7: Loops and Iterations - For loops and while loops.
+# 8 : Modules and Standard library
 
 ### Overview
 
-How to use for and while loops
+How to use modules and some standard libraries
 ## Key Concepts
 
-### For loops:
-- For i in range(10): allows you to loop 10 or a set times.
-- For value in list: allows you to loop however many childrens there are in the list
-### While loops:
-- While loops continues a loop until the statement is true
-- While True loops continues forever so use a break or else it will crash eventually
+### Modules
+- Use modules to look more clean
+- import modules using import or from module import function
+- modules can be grabbed from other directories
+### Standard Libraries
+- Standard libraries include math,calendar,os,datetime and much more
+- e.g. Math library allows calculations like sin
+- OS allows more compilcated controls on operating system , more detail on next video
+- calendar allows functions like isleap()
+- datetime allows you to grab date and time of today for example
 
 ### Important Details
-> While True loops continues forever so use a break or else it will crash eventually
+> Use libraries to simplify your code , use module to make it more readable.
 ### Examples
-- for loop with a if else statement:
+- Import maths and use sin:
   ```python
-    for numbers in number: # Looping through however many numbers there are
-        if numbers == 5:
-            print("Found!", numbers) # This filters out 5s and say Found if theyre a 5
-        else:
-            print(numbers)
+    import math
+    print(math.sin(90))
+- Import datetime and grab today's date:
+  ```python
+    import datetime
+    print(datetime.date.today())
