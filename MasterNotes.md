@@ -11,6 +11,9 @@
 - [Conditions - If elif and else](#6-conditions---if-elif-and-else-statements)
 - [Loops and Iterations - For loops and while loops](#7-loops-and-iterations---for-loops-and-while-loops)
 - [Functions](#8-functions)
+- [Modules and Standard Library](#8---modules-and-standard-library)
+
+
 
 # 1 - Install and Setup for Mac and Windows
 
@@ -273,3 +276,33 @@ How to define functions , use them and what are kwargs and args
 
 
     print(f"The year is {year}, which {text} a leap year, therefore there is {days_in_month(year,month)} days in {month_names[month]}")
+
+# 8 : Modules and Standard library
+
+### Overview
+
+How to use modules and some standard libraries
+## Key Concepts
+
+### Modules
+- Use modules to look more clean
+- import modules using import or from module import function
+- modules can be grabbed from other directories
+### Standard Libraries
+- Standard libraries include math,calendar,os,datetime and much more
+- e.g. Math library allows calculations like sin
+- OS allows more compilcated controls on operating system , more detail on next video
+- calendar allows functions like isleap()
+- datetime allows you to grab date and time of today for example
+
+### Important Details
+> Use libraries to simplify your code , use module to make it more readable.
+### Examples
+- Import maths and use sin:
+  ```python
+    import math
+    print(math.sin(90))
+- Import datetime and grab today's date:
+  ```python
+    import datetime
+    print(datetime.date.today())
