@@ -12,7 +12,7 @@
 - [Loops and Iterations - For loops and while loops](#7-loops-and-iterations---for-loops-and-while-loops)
 - [Functions](#8-functions)
 - [Modules and Standard Library](#8---modules-and-standard-library)
-
+- [OS Module - Use Underlying Operating System Functionality](#10--os-module---use-underlying-operating-system-functionality)
 
 
 # 1 - Install and Setup for Mac and Windows
