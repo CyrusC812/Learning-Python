@@ -1,10 +1,7 @@
-
-
-# 8 : Modules and Standard library
+# 10 : OS Module - Use Underlying Operating System Functionality
 
 ### Overview
-
-How to use modules and some standard libraries
+How to use the OS module
 ## Key Concepts
 ### directories
 - Use .chdir() to change working directory
