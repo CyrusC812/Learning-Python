@@ -1,0 +1,7 @@
+Modes
+'r' --> for read file contents.
+'w' --> for writing to file.
+'a' --> for eppending file contents.
+'r+' --> for reading and writing
+'b' --> to open file in binary mode (for reading images)
+Note: We can use different modes together like 'rb' can be used for reading a binary file.
