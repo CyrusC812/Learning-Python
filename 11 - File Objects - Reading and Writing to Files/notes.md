@@ -45,6 +45,3 @@ How to manipulate file objects
     with open("readFilePath", 'r') as readFile:
         with open("writeFilePath", 'w') as writeFile:
             writeFile.write(readFile.read())
-
-
-

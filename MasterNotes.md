@@ -13,6 +13,9 @@
 - [Functions](#8-functions)
 - [Modules and Standard Library](#8---modules-and-standard-library)
 - [OS Module - Use Underlying Operating System Functionality](#10--os-module---use-underlying-operating-system-functionality)
+- [File Objects - Reading and Writing to Files](#11---file-objects---reading-and-writing-to-and-from-files)
+- [How to Set the Path and Switch Between Different Versions](#12---how-to-set-the-path-and-switch-between-different-versions)
+- [How to Set the Path and Switch Between Different Versions](#13---how-to-set-the-path-and-switch-between-different-versions)
 
 
 # 1 - Install and Setup for Mac and Windows
@@ -399,6 +402,20 @@ How to manipulate file objects
     with open("readFilePath", 'r') as readFile:
         with open("writeFilePath", 'w') as writeFile:
             writeFile.write(readFile.read())
+# 12 - How to set the Path and switch between different versions
+### Overview
+How to change enviroment variable to correct python version and do same for pip
+## Key Concepts
+### Changing Enviroment variables on windows
+- system settings -> view advanced settings -> enviroment variables
+- Change enviroment variable to the correct python version
+- Do the same for pip
+### Important Details
+> pip can be done the same , it is in similar directory
+> Python default directory varies
+# 13 - How to set the Path and switch between different versions - Mac
+### Overview
+This tutorial is exact same but for Mac/Linux which I don't really use python on 
 
 
 
