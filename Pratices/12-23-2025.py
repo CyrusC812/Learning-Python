@@ -16,3 +16,10 @@ def isodd(num):
       else:
             return("odd")
 print(f"Hello {profile['Name']}!\nYour age is an {isodd(profile["Age"])} number!\nFavorite Numbers Summary : \nSmallest: {min(numlist)}\nLargest: {max(numlist)}\nSum : {sum(numlist)}")
+
+# This is a code of profile creation
+# Here I used things such as a function for determining odd numbers
+# fstrings for the entire output
+# list to store favorite numbers
+# and type casting on input
+# I would improve it by more validations for the favorite numbers,use isodd() a little bit more, and improve readability of the code by splitting the fstring
