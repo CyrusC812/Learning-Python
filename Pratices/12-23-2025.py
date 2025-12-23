@@ -3,11 +3,11 @@ age = int(input("Please enter your age : "))
 while age <= 0:
         age = int(input("Please enter a valid age : "))
 answer = "y"
-numlist =
+numlist = []
 while answer == "y":
     FavNum = int(input("Please enter your favorite number : "))
     answer = input("Would you like to add another favorite number (Y/N) : ").lower()
-    numlist = [numlist,FavNum]
+    numlist.append(FavNum)
     print(numlist)
 profile = {"Name":name,"Age":age, "FavoriteNumber":numlist}
 def isodd(num):
