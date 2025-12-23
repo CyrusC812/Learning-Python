@@ -15,7 +15,7 @@
 - [OS Module - Use Underlying Operating System Functionality](#10--os-module---use-underlying-operating-system-functionality)
 - [File Objects - Reading and Writing to Files](#11---file-objects---reading-and-writing-to-and-from-files)
 - [How to Set the Path and Switch Between Different Versions](#12---how-to-set-the-path-and-switch-between-different-versions)
-- [How to Set the Path and Switch Between Different Versions](#13---how-to-set-the-path-and-switch-between-different-versions)
+- [How to Set the Path and Switch Between Different Versions - Mac & Linux version](#13---how-to-set-the-path-and-switch-between-different-versions)
 
 
 # 1 - Install and Setup for Mac and Windows
