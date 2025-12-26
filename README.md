@@ -13,3 +13,5 @@ You can use this repo as a guidance or just as an example of notes.
 
 ## Purpose
 To document my progress and improve on them, also to use them in future projects.
+
+# Please refer to [MasterNotes.md](MasterNotes.md) for all notes
