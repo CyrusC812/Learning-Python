@@ -441,3 +441,5 @@ while answer == 'y':
 else:
   print("Bye!")
 ```
+- An example use of **dictionaries** to store multiple types of data , e.g. student's profile
+- Loops until user decides to stop inputting students using **while**
