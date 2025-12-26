@@ -443,3 +443,27 @@ else:
 ```
 - An example use of **dictionaries** to store multiple types of data , e.g. student's profile
 - Loops until user decides to stop inputting students using **while**
+## 12-23-2025
+```python
+name = input("Please enter your name : ")
+age = int(input("Please enter your age : "))
+while age <= 0:
+        age = int(input("Please enter a valid age : "))
+answer = "y"
+numlist = []
+while answer == "y":
+    FavNum = int(input("Please enter your favorite number : "))
+    answer = input("Would you like to add another favorite number (Y/N) : ").lower()
+    numlist.append(FavNum)
+    print(numlist)
+profile = {"Name":name,"Age":age, "FavoriteNumber":numlist}
+def isodd(num):
+      if num % 2 == 0:
+            return("even")
+      else:
+            return("odd")
+print(f"Hello {profile['Name']}!\nYour age is an {isodd(profile["Age"])} number!\nFavorite Numbers Summary : \nSmallest: {min(numlist)}\nLargest: {max(numlist)}\nSum : {sum(numlist)}")
+```
+- This is a code for profile creation via loops and inputs
+- An example use of functions ( determining odd numbers )
+- An example use of fstrings, list and type casting
