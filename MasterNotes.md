@@ -467,3 +467,39 @@ print(f"Hello {profile['Name']}!\nYour age is an {isodd(profile["Age"])} number!
 - This is a code for profile creation via loops and inputs
 - An example use of functions ( determining odd numbers )
 - An example use of fstrings, list and type casting
+## 12-24-2025
+```python
+odd = 0
+even = 0
+with open("numbers.txt",'w') as f:
+    for i in range(1,51):
+        f.write(f"{str(i)}\n")
+def analyze(num):
+    mi = min(num)
+    ma = max(num)
+    su = sum(num)
+    return mi,ma,su
+with open("numbers.txt",'r') as r:
+    numbers = [int(x) for x in r.read().split('\n') if x]
+    print(numbers)
+    result = analyze(numbers)
+def isodd(num):
+      if num % 2 == 0:
+            return(False)
+      else:
+            return(True)
+for n in numbers:
+     if isodd(n) == True:
+          odd  += 1
+     else:
+          even += 1
+print(f"The Smallest number is : {result[0]}")
+print(f"The largest number is : {result[1]}")
+print(f"The sum of all numbers is : {result[2]}")
+print(f"There is {odd} odd numbers and {even} even numbers")
+
+
+```
+- Uses .read() and .write() to manipulate file objects and lines inside of it
+- This code also analyses and prints out a summary of the read file
+- also has functions that returns multiple variables , mi,ma and su for example.
