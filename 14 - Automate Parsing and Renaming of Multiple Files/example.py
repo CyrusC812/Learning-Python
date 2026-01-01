@@ -4,7 +4,7 @@ print(os.getcwd())
 FOLDER = os.getcwd()
 for f in os.listdir(FOLDER):
     old_path = os.path.join(FOLDER, f)
-
+    print("old_path : ",old_path)
     # skip folders
     if not os.path.isfile(old_path):
         continue
