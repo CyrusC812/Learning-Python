@@ -9,7 +9,7 @@ while answer == 'y':
     student = {'Name': name,'Age': age,'Courses': courses}
     for x, value in student.items():
         if isinstance(value, list):
-            value = ", ".join(value)  # Revise this bit nigga
+            value = ", ".join(value)
         else:
             value = str(value)
         print(f"{x} : {value}")
